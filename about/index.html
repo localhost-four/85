@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <meta name="description" content="A cute bunny-hugging adventure with hidden secrets. Play solo or co-op!">
+    <meta name="keywords" content="hug bunny, co-op game, secrets, multiplayer, creepy, online game, indie">
+    <meta name="author" content="Null-X @PixProtogen1">
+    <meta name="theme-color" content="#9edae9">
+    <link rel="icon" href="../not.gif" type="image/gif">
+</head>
+
+<body>
+    <div class="background-layer">
+        <div class="weather-overlay rain"></div>
+        <div class="objects">
+            <div class="eye" id="eye1"></div>
+            <div class="eye" id="eye2"></div>
+            <div class="eye" id="eye3"></div>
+            <div class="eye" id="eye4"></div>
+            <div class="eye" id="eye5"></div>
+            <div class="artifact claw" id="claw1"></div>
+            <div class="artifact book" id="book1"></div>
+            <div class="artifact ribbon" id="ribbon1"></div>
+            <div class="artifact staff" id="staff1"></div>
+            <div class="heart" id="heart1"></div>
+            <div class="heart" id="heart2"></div>
+            <div class="heart" id="heart3"></div>
+            <div class="heart" id="heart4"></div>
+        </div>
+        <div class="shadow-overlay"></div>
+    </div>
+
+    <div class="book">
+        <div class="page" id="page1">
+            <h1 class="title glitch" data-text="Document">Document</h1>
+            <h2 class="subtitle flicker">The Blessed Hollow Chronicle - March 16, 2025</h2>
+            <div class="content">
+                <p class="intro">
+                    <span class="highlight blood">BEWARE:</span> This is no dream you wake from. Huggy Bear’s Hollow—a
+                    village of black soil and twisted faith—hides a truth so vile it claws at your sanity. What began as
+                    a bunny’s search for love spiraled into a nightmare of <span class="highlight fire">FIRE</span>,
+                    <span class="highlight blood">BLOOD</span>, and a god who feeds on fear. Turn the page if you
+                    dare—secrets rot within.
+                </p>
+
+                <section class="story">
+                    <h3 class="section-title">Act I: The Hollow’s Mask</h3>
+                    <p>
+                        It started with a <span class="highlight pixel">bunny</span>, fur soft as sin, hopping into a
+                        forest where the wind screamed through bushes thick with thorns. The soil—black as death, rich
+                        as chernozem—cradled cottages of splintered wood. Inside: tables gouged with claw marks, mugs
+                        stained with something red, beds slashed open like throats. Villagers—foxes with hollow eyes,
+                        deer with trembling antlers—grinned and sang of Huggy Bear, a towering figure in a costume
+                        stitched with <span class="highlight blood">red ribbons</span>. “He’s our god,” they whispered,
+                        voices flat as graves. But at night, the shadows stretched into claws, and a child’s laugh
+                        echoed from the trees.
+                    </p>
+                    <p>
+                        The bunny explored, collecting flowers for “Hug Points,” a game the bear devised. Each cottage
+                        held clues: a diary page—“He hugged me too tight”—scrawled in crayon, a doll with its head torn
+                        off, a mirror reflecting nothing but <span class="highlight fire">fire</span>. The air grew
+                        heavy, the sky bruised purple. Something watched from the treeline, and the word <span
+                            class="highlight blood">DIE</span> flickered in the bunny’s mind.
+                    </p>
+                </section>
+
+                <section class="story">
+                    <h3 class="section-title">The First Sin</h3>
+                    <p>
+                        Timmy the Squirrel was the first to fall. He giggled as Huggy Bear wrapped him in a “special
+                        hug,” his tiny paws clutching a flower. Then—snap. His ribs caved, blood seeped through his fur,
+                        and the bear sewed him into a costume, a grotesque puppet. The villagers clapped, chanting:
+                        <span class="highlight pixel">“Hugs are love, hugs are life.”</span> His flower wilted in the
+                        mud, and the bunny found it, stained with <span class="highlight blood">heart-shaped
+                            blood</span>.
+                    </p>
+                </section>
+            </div>
+            <button class="next-page" onclick="turnPage(2)">Next Page</button>
+        </div>
+
+        <div class="page" id="page2" style="display: none;">
+            <h1 class="title glitch" data-text="Document">Document</h1>
+            <h2 class="subtitle flicker">The Blessed Hollow Chronicle - Page 2</h2>
+            <div class="content">
+                <section class="story">
+                    <h3 class="section-title">Act II: The Temple’s Rise</h3>
+                    <p>
+                        The earth groaned, splitting to birth the <span class="highlight blood">Temple of Eternal
+                            Hugs</span>. Roots snapped, soil bled, and a monolith of stone and glass ascended—carvings
+                        of bears strangling rabbits, windows glowing with Huggy Bear’s halo of <span
+                            class="highlight fire">flame</span>. Inside, torches sputtered, casting shadows that danced
+                        like demons. The Eye of God—a mechanical orb with a crimson pupil—hung above the altar, its gaze
+                        burning through flesh. “Bow,” Huggy roared, his voice a thunderclap, “or taste my divine wrath.”
+                        The villagers knelt, movements robotic, chanting: <span class="highlight pixel">“We serve, we
+                            bow, we die.”</span>
+                    </p>
+                    <p>
+                        The bunny entered, tasked with offerings: flowers, bones, a beating heart ripped from a bird.
+                        The altar drank it all, blood pooling in cracks. A fox whispered, “Don’t trust the hugs,” before
+                        vanishing in a glitch—his scream cut short. The temple’s walls pulsed, and a hymn rose: “Huggy
+                        Bear, our light, our end.” Lightning struck outside, rain hammered the roof, and the Eye locked
+                        onto the bunny, whispering: <span class="highlight blood">“You’re next.”</span>
+                    </p>
+                </section>
+
+                <section class="story">
+                    <h3 class="section-title">The Second and Third Sins</h3>
+                    <p>
+                        Lila the Fox prayed too loudly. During a sermon, Huggy Bear’s paw crushed her throat, her gasps
+                        drowned by chants. The Eye of God fired a beam, plucking her eyes like grapes—red juice stained
+                        the floor in <span class="highlight blood">heart shapes</span>. She was strung up, a warning to
+                        doubters. Benny the Deer fared worse. He questioned the bear’s divinity, and fire answered—a pit
+                        opened, flames licking his hooves. His antlers melted, his screams swallowed by thunder. The
+                        cult danced, their shadows twisting into bears.
+                    </p>
+                </section>
+
+                <section class="story">
+                    <h3 class="section-title">The Cult’s Arsenal</h3>
+                    <p>
+                        Artifacts fueled the madness: <span class="highlight blood">Bear Claws</span> carved from bone,
+                        dripping with sin; the <span class="highlight fire">Book of Hugs</span>, its pages scrawled with
+                        commandments like “Thou shalt break for me”; <span class="highlight blood">Ribbons</span>,
+                        soaked in blood, binding souls; and the <span class="highlight fire">Staff of Flame</span>,
+                        summoning lightning to fry the unworthy. The bunny found a claw in a cottage, still warm, and a
+                        ribbon tied to a child’s wrist—her hand was gone.
+                    </p>
+                </section>
+            </div>
+            <button class="prev-page" onclick="turnPage(1)">Previous Page</button>
+            <button class="next-page" onclick="turnPage(3)">Next Page</button>
+        </div>
+
+        <div class="page" id="page3" style="display: none;">
+            <h1 class="title glitch" data-text="Document">Document</h1>
+            <h2 class="subtitle flicker">The Blessed Hollow Chronicle - Final Page</h2>
+            <div class="content">
+                <section class="story">
+                    <h3 class="section-title">Act III: The Hollow Unraveled</h3>
+                    <p>
+                        Beneath the temple, a crypt yawned—bunnies piled high, hugged to death, their costumes reeking
+                        of rot. Huggy Bear’s laugh crackled through static: “Perfection demands blood.” The village
+                        split: loyalists clawed at rebels, mud turned red under rain. Lightning revealed <span
+                            class="highlight blood">DIE</span> etched on every tree, every wall. The bear hunted, his
+                        costume shredded, revealing a scarred maw dripping with <span
+                            class="highlight blood">heart-shaped gore</span>. A deer screamed, “He’s no god!” before
+                        claws silenced her.
+                    </p>
+                    <p>
+                        The bunny found notes: “I saw him at the party—Timmy didn’t come back.” “The windows watch us.”
+                        “I dream of fire.” The air thickened, the sky bled red, and the Eye of God pulsed, whispering
+                        sins the bunny never committed. Mira the Rabbit tried to flee—cultists tore her apart, painting
+                        the temple with her blood, a crimson <span class="highlight blood">heart</span> on the altar.
+                    </p>
+                </section>
+
+                <section class="story">
+                    <h3 class="section-title">Act IV: The False God’s End</h3>
+                    <p>
+                        The bunny rallied the broken—foxes, squirrels, a deer with one antler. Flames roared as they
+                        toppled Huggy Bear’s statue, crushing him. “I am eternal,” he howled, fire consuming his fur.
+                        The temple collapsed, a pyre of stone and glass. Rain washed the blood away, leaving a whisper:
+                        <span class="highlight fire">“Forgive me—this was my dream.”</span> But in the dark, his eyes
+                        glowed, unblinking, promising return. The bunny stood alone, the Hollow a grave, the wind
+                        singing of secrets yet buried.
+                    </p>
+                </section>
+
+                <section class="story madness-text">
+                    <h3 class="section-title">The Dream’s Truth</h3>
+                    <p>
+                        This was no game. I saw it in my sleep—a world of love twisted into slaughter. Huggy Bear wasn’t
+                        born; he crawled from my mind, a shadow of guilt. The bunny was me, searching for something
+                        pure, finding only <span class="highlight blood">BLOOD</span>. The villagers—my friends, my
+                        fears—died by my hand, my dream. The temple rose from my soul, the Eye judged me, and the fire
+                        cleansed nothing. I hear him now, in the dark, laughing. <span class="highlight fire">HE’S STILL
+                            HERE.</span> Solve this if you can—find the truth in the ashes. Or join us in the Hollow.
+                        Forever.
+                    </p>
+                </section>
+            </div>
+            <button class="prev-page" onclick="turnPage(2)">Previous Page</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

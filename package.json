@@ -1,0 +1,35 @@
+{
+    "name": "i-plus-u",
+    "version": "1.0.0",
+    "description": "A psychological horror game exploring the dark web",
+    "main": "index.html",
+    "scripts": {
+        "start": "serve .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Null-X @PixProtogen1",
+    "license": "MIT",
+    "dependencies": {
+        "firebase": "^11.4.0",
+        "serve": "^14.2.1"
+    },
+    "devDependencies": {
+        "eslint": "^8.56.0",
+        "prettier": "^3.2.5"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PixProtogen1/i-plus-u"
+    },
+    "keywords": [
+        "game",
+        "horror",
+        "psychological",
+        "dark-web",
+        "mystery"
+    ],
+    "bugs": {
+        "url": "https://github.com/PixProtogen1/i-plus-u/issues"
+    },
+    "homepage": "https://github.com/PixProtogen1/i-plus-u#readme"
+}
